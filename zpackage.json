@@ -1,0 +1,23 @@
+{
+    "name": "Anurag-project",
+    "version": "1.0.0",
+    "description": "A web application for managing car dealerships",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.18.2",
+        "faker": "^5.5.3",
+        "jsonwebtoken": "^9.0.1",
+        "mongodb": "^4.16.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
