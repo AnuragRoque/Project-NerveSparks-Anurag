@@ -1,5 +1,5 @@
 {
-    "name": "Anurag-project",
+    "name": "nerve-sparkanurag-anurag",
     "version": "1.0.0",
     "description": "A web application for managing car dealerships",
     "main": "app.js",
@@ -7,6 +7,11 @@
         "start": "node app.js",
         "dev": "nodemon app.js"
     },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnuragRoque/Project-NerveSparks-Anurag.git"
+  },
+  "author": "Anurag Singh",
     "dependencies": {
         "bcrypt": "^5.0.1",
         "bcryptjs": "^2.4.3",
