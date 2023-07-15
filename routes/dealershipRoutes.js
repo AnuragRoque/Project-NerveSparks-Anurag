@@ -3,7 +3,13 @@ const router = express.Router();
 const dealershipController = require('../controllers/dealershipController');
 const authController = require('../controllers/authController');
 
-router.get('/', dealershipController.getAllDealerships);
+function handleGetRequest(req, res) {
+    res.send('Hello, world!');
+}
+exports.getAllDealerships = function(req, res) {
+    res.send('Get all dealerships');
+  };
+router.get('/', handleGetRequest);
 router.get('/:id', dealershipController.getDealershipById);
 router.post('/', authController.verifyToken, dealershipController.createDealership);
 router.put('/:id', authController.verifyToken, dealershipController.updateDealership);

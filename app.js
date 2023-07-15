@@ -11,4 +11,6 @@ app.use('/auth', authRoutes);
 app.use('/users', userRoutes);
 app.use('/dealerships', dealershipRoutes);
 
-module.exports = app;
+app.listen(3000, () => {
+    console.log('Server is running on port 3000');
+});
